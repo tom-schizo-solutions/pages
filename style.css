@@ -1,0 +1,114 @@
+		/* ~TOM STYLESHEET */
+		
+			/* BEGIN */
+
+@font-face {
+	font-family: 'Futura';
+	src: url(futura.ttf);		
+}
+
+
+html {
+	padding: 50pt;
+	background-image: url('stary_night.gif');
+}
+   
+body {
+	border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAVKADAAQAAAABAAAAVAAAAAC3aM1AAAACLElEQVR4Ae3cUU7DQAyE4QRxRg7JJYvEUzQrMRp5mpT054nF3m3yxTUGIfbH9/bY+KgJfNRO4qBfAUDLhQBoGfSzfJ49bv/a9mPS3Xo4FXp8uoXPAS0gHo8A9KhR+Pz0HqrXrD1V47p+9Z5LheoTG64BHQLqdkBVZLjen92T0h45vJ/t2ffjro8KdUJhHNAQzKUD6oTC+OVzaHi9Nl179tk9lQq1jyhLADTzstmAWqIsoT6Hag/LLuf87HaPpULLzxBQQMsC5eNuN4emPq7npz2Wt3z6BEw+oAYoDQOaipn88RzqepB5/X8f1h5LhZYfKaCAlgXKx8VzKD3z77+n5S1frlBAAS0LlI+jQgEtC5SPo0IBLQuUj7Nz6LvPnak3b/lUzOQDaoDSMKCpmMm3PdTsv31Yf9/pbpgKdUJhHNAQzKUD6oTCOKAhmEsH1AmFcUBDMJcOqBMK48sc+u4/u6dzp3pToSoyXAM6BNTtgKrIcB3/bdPdeuy0Z6o/FaoiwzWgQ0DdDqiKDNfLHOrOcz3nbj3WeWicClWR4RrQIaBuB1RFhut4Dh2+3nZ1j3XfA6b3R4VOBWU/oAIyXQI6FZT98Rwq++Ol9rCre2p8A2YDFWqA0jCgqZjJB9QApeHT59D4AuV/Nqf7tWen+9N8KjQVM/mAGqA0DGgqZvJPn0PN9SzhtAdePddSocsjnH0B0JnfshvQhWT2hZefQ2e3d/5uKrRsDiigZYHycT/QQEX31MfZ6AAAAABJRU5ErkJggg==") 28 /  28px / 0 round;
+	border-width:  28px;
+	border-style:  solid;
+	font-family: 'Futura', 'Trebuchet MS', Verdana, Tahoma, Georgia, sans-serif;
+	background: rgb(76, 21, 21);
+	max-width: 450pt;
+	padding: 15px;
+	margin: 0 auto;
+	color: #ebe4cc;
+}
+
+p {
+	font-size: 14px;
+}
+
+ul {
+	list-style-type: "⇒ ";
+	margin: 5px;
+}
+
+li {
+	padding-top: 3.5px;
+	font-size: 13px;
+}
+
+details {
+	padding: 5px;
+}
+
+a {
+	color:#22bedd;
+	font-size: 1.0em;
+	line-height: 20px;
+}
+	
+a:hover {
+	 color: red;
+}
+
+pre {
+	font-family: Monaco, monospace;
+	padding: 5px;
+	font-size: 16px;
+	background-color: black;
+	overflow-x: scroll;
+}
+
+code {
+	font-family: Monaco, monospace;
+	padding: 5px;
+	line-height: 1.6;
+	font-size: 16px;
+	border-radius: 16px;
+	background-color: black;
+}
+
+.title {
+	color:#B2BEB5;
+	margin: 0;
+}
+
+.pad {
+	padding: 5px;
+	display: inline-block;
+}
+
+.sty {
+	text-align: center; 
+	border: 4px solid goldenrod; 
+	margin: 5px;
+	padding: 7px;
+	max-height: 50vh;
+	overflow-y: scroll;
+}
+
+.opaque {
+	background-color: black;
+	opacity: 0.7;
+}
+
+.grid { 
+	display: grid; 
+	grid-template-columns: 1fr; 
+	grid-template-rows: repeat(2, 1fr); 
+	grid-column-gap: 5px;
+    grid-row-gap: 5px; 
+}
+
+.avatar {
+	grid-column: 1 / 2;
+	grid-row: 1 / 1;
+}
+
+.bio {
+	grid-column: 2 / 2;
+	grid-row: 1 / 1;
+}
+	/* END */
