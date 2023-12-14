@@ -29,7 +29,7 @@
         }
     
         .nextsite {
-            list-style-image: url(go-next.svg);
+            list-style-image: url(go-previous.png);
         }
   
       li {
