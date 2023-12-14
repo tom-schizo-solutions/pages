@@ -5,25 +5,13 @@
           color: #ebe4cc;
           max-width: 498pt;
           background-color: #370b0b;
-      }
-
-      @media (max-width: 400px) {
-        body {
-            max-width: none;
         }
-      }
 
-      .icon {
-		display: inline-block; width: 32px; height: 32px; padding: 2px;
-	}
-
-	h2 {
+      h2 {
 		margin:2px;
 		padding:0;
 	}
       
-
-  
       ul {
           list-style-type: "⇒";;
         }
@@ -57,4 +45,8 @@
           font-size: 14px;
           border-radius: 16px;
           background-color: black;
+      }
+
+      .icon {
+		display: inline-block; width: 32px; height: 32px; padding: 2px;
       }
