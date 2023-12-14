@@ -8,60 +8,16 @@
   <title>tomxcd</title>
 </head>
 <body>
-
-	<nav>
-	<h2><img class="icon" width="32px" height="32px" padding="2px" src="icon.png">tom, deep in space</h2>
-	<h2><img class="icon" width="32px" height="32px" padding="2px" src="about.png"><a href="about">about</a></h2>
-	<h2><img class="icon" width="32px" height="32px" padding="2px" src="chatbox.png"><a onclick="window.open('https://www3.cbox.ws/box/?boxid=3527860&boxtag=fTJUsD&sec=main','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">chatbox</a></h2>
-	<h2><img class="icon" width="32px" height="32px" padding="2px" src="buddy.png"><a href="buddies">cool people</a></h2>
-	<h2><img class="icon" width="32px" height="32px" padding="2px" src="go-next.png"><a href="https://hotlinewebring.club/tomxcd/next">next site</a></h2>
-	<h2><img class="icon" width="32px" height="32px" padding="2px" src="go-previous.png"><a href="https://hotlinewebring.club/tomxcd/previous">last site</a></h2>
-	</nav>
-	
-
-	<!--
-	<fieldset style="background: rgb(37, 76, 21); padding: 10px;">
-	    <legend><img src="data:image/png;base64,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" alt="~tom Dragon button"></legend>
-			<h2>The name's Kaydan. I usually go by Tom most of the time, though.</h2>
-			<p>Weirdo 16y/o bisexual guy from Michigan, disguised as a dragon online (rawr~). 🐉</p>
-			<p>Minimalist, cyclist, retro-enthusiast, resident Undertale kid</p>
-			<p>Currently working as a cashier/cleaner at a local 50s style restaurant</p>
-			<p>💬 Use the <a onclick="window.open('https://www3.cbox.ws/box/?boxid=3527860&boxtag=fTJUsD&sec=main','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">chatbox</a> to leave a quick message :></p>
-			<p>And yes, this whole thing is contained in one .html file (not very efficient but whatevs)</p>
-			<p>Explore other cool sites, just like this one, using the <b><a href="https://hotlinewebring.club/tomxcd/previous">←</a> 💍 hotline webring <a href="https://hotlinewebring.club/tomxcd/next">→</a></b></p>
-			<details>
-				<summary>💬 contact me directly</summary>
-				<ul>
-					<li>Discord: <code>tom.schizo.solutions</code></li>
-					<li>IRC: Libera.chat or Rizon as <code>tomxcd</code></li>
-				</ul>
-			</details>
-			<details>
-				<summary>buddy list :></summary>
 				<ul>
 					<li><a href="https://www.youtube.com/@ariothesnekdragon">ArioTheSnekDragon</a> (aussie dragon, very cool)</li>
-					<li><a href="https://shitpostalotl.codeberg.page">Avery</a></li>
-					<li><a href="https://www.youtube.com/@finch4242">Finch</a></li>
+					<li><a href="https://shitpostalotl.codeberg.page">Avery</a> (long time online friend)</li>
+					<li><a href="https://www.youtube.com/@finch4242">Finch</a> (hes cute)</li>
 					<li><a href="http://dvd3000.ca">3k</a></li>
-					<li><a href="https://dragon-vi.be">sirlan</a></li>
+					<li><a href="https://dragon-vi.be">Sirlan Tomma</a> (another dragon)</li>
 					<li><a href="https://out.neocities.org">out</a></li>
 					<li><a href="https://awii.neocities.org/main">awii</a></li>
 					<li><a href="https://angusnicneven.com">angus nicneven</a></li>
 					<li><a href="https://heavenonline.xyz">momotsuki</a></li>
 				</ul>
-			</details>
-		<center><h3>💚 KILL THEM WITH KINDNESS 💚</h3></center>
-	</fieldset>
-
-	  <footer><img src="tom_button.png" alt="my button"> <div style="float: right;">
-				<script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=39122456&main=1"></script><noscript><img src="//counter1.fc2.com/counter_img.php?id=39122456&main=1" /></noscript> visits
-			</div></footer>
-
-
-	<--
-			
-		  
-
-</div>
 </body>
 </html>
