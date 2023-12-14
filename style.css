@@ -1,0 +1,63 @@
+      @font-face { 
+        font-family: 'Open Sans';
+        src: url('./open_sans.ttf');
+      }
+  
+  
+      body {
+          font-family: 'Open Sans';
+          margin: 0 auto;
+          color: #ebe4cc;
+          background-color: #370b0b;
+      }
+
+      @media (max-width: 400px) {
+        body {
+            max-width: 100%;
+        }
+      }
+      
+      h1 h2 h3 h4 p {
+          line-height: 5.0;
+          margin: 5px;
+      }
+
+  
+      ul {
+          list-style-type: "⇒";;
+        }
+  
+      li {
+          padding: 5px;
+          font-size: 16px;
+      }
+  
+      details {
+          padding: 5px;
+      }
+  
+      
+      a {
+          color:#ebe4cc;
+      }
+      
+      a:hover {
+          color: #ff0000;
+      }
+  
+      pre {
+          font-family: Monaco, monospace;
+          padding: 5px;
+          font-size: 16px;
+          background-color: black;
+          overflow-x: scroll;
+      }
+  
+      code {
+          font-family: Monaco, monospace;
+          padding: 5px;
+          line-height: 1.6;
+          font-size: 14px;
+          border-radius: 16px;
+          background-color: black;
+      }
